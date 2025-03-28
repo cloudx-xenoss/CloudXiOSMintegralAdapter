@@ -1,9 +1,9 @@
 {
-  "name": "CloudXDemoAdapter",
+  "name": "CloudXMintegralAdapter",
   "version": "1.0.4",
-  "summary": "Mobile SDK for CloudX iOS Demo Adapter",
-  "description": "Mobile SDK for CloudX iOS Demo Adapter",
-  "homepage": "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter",
+  "summary": "Mintegral adapter for CloudX iOS SDK",
+  "description": "Adapter used to display mediated Mintegral ads",
+  "homepage": "https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter",
   "authors": {
     "CloudX": "support@cloudx.com"
   },
