@@ -1,2 +1,2 @@
 # CloudXiOSMintegralAdapter
-Mintegral adapter for CloudX Core iOS SDK
+Mintegral adapter for CloudX iOS SDK
