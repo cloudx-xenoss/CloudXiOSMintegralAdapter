@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "CloudXDemoAdapter",
             url: "https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter/releases/download/1.0.0/CloudXMintegralAdapter.xcframework.zip",
-            checksum: "226a782f3e17808ff1598b28d346e3a28f44ecb0738daf8f5dbe1fa069f08b0c"
+            checksum: "fb48108062d359a3b72099601ef1e5ce6f7a4f1437dfe83848f975d3448758e5"
         )
     ]
 )
