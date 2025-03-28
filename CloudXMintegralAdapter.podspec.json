@@ -14,14 +14,14 @@
   "platforms": {
     "ios": "13.0"
   },
-  "swift_version": "5.0, 5.1, 5.2",
+  "swift_versions": ["5.0", "5.1", "5.2"],
   "module_name": "CloudXMintegralAdapter",
   "source": {
     "http": "https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter/releases/download/1.0.0/CloudXMintegralAdapter.xcframework.zip",
     "type": "zip",
     "flatten": false
   },
-  "vendored_frameworks": "CloudXiOSMintegralAdapter.xcframework",
+  "vendored_frameworks": "CloudXMintegralAdapter.xcframework",
   "dependencies": {
     "CloudXCore": ">=1.0.0"
   },
@@ -51,3 +51,4 @@
     "OTHER_LDFLAGS": "-ObjC"
   }
 }
+
