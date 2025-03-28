@@ -1,0 +1,53 @@
+{
+  "name": "CloudXDemoAdapter",
+  "version": "1.0.4",
+  "summary": "Mobile SDK for CloudX iOS Demo Adapter",
+  "description": "Mobile SDK for CloudX iOS Demo Adapter",
+  "homepage": "https://github.com/cloudx-xenoss/CloudXiOSDemoAdapter",
+  "authors": {
+    "CloudX": "support@cloudx.com"
+  },
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright 2024 CloudX, Inc. All rights reserved."
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_version": "5.0, 5.1, 5.2",
+  "module_name": "CloudXMintegralAdapter",
+  "source": {
+    "http": "https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter/releases/download/1.0.4/CloudXMintegralAdapter.xcframework.zip",
+    "type": "zip",
+    "flatten": false
+  },
+  "vendored_frameworks": "CloudXiOSMintegralAdapter.xcframework",
+  "dependencies": {
+    "CloudXCore": ">=1.0.0"
+  },
+  "frameworks": [
+    "AVFoundation",
+    "AVKit",
+    "AdSupport",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreTelephony",
+    "Foundation",
+    "StoreKit",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "weak_frameworks": [
+    "Combine",
+    "CryptoKit",
+    "SafariServices",
+    "SwiftUI",
+    "WebKit"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}
