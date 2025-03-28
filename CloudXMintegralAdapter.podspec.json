@@ -1,6 +1,6 @@
 {
   "name": "CloudXMintegralAdapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "Mintegral adapter for CloudX iOS SDK",
   "description": "Adapter used to display mediated Mintegral ads",
   "homepage": "https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter",
@@ -17,7 +17,7 @@
   "swift_versions": ["5.0", "5.1", "5.2"],
   "module_name": "CloudXMintegralAdapter",
   "source": {
-    "http": "https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter/releases/download/1.0.0/CloudXMintegralAdapter.xcframework.zip",
+    "http": "https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter/releases/download/1.0.1/CloudXMintegralAdapter.xcframework.zip",
     "type": "zip",
     "flatten": false
   },
