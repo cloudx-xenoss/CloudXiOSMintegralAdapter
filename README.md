@@ -24,11 +24,10 @@ Add the following to your project’s Other Linker Flags in Build Settings:
 `-ObjC`
 
 ✅ ##2. Enable Objective-C Exceptions (Recommended)
-Some older versions of Mintegral SDKs expect Obj-C exceptions to be enabled.
+- Some older versions of Mintegral SDKs expect Obj-C exceptions to be enabled.
+- Go to Build Settings
+- Set Enable Objective-C Exceptions (GCC_ENABLE_OBJC_EXCEPTIONS) to YES
 
-Go to Build Settings
-
-Set Enable Objective-C Exceptions (GCC_ENABLE_OBJC_EXCEPTIONS) to YES
 
 ✅ **3. App Transport Security (ATS)**  
 If your app communicates with non-HTTPS servers for ads (less common), update your Info.plist to allow exceptions:  
@@ -41,6 +40,7 @@ If your app communicates with non-HTTPS servers for ads (less common), update yo
 ```
 ⚠️ *Note: Only do this if absolutely necessary.*
 
+
 ✅ **4. NSUserTrackingUsageDescription (iOS 14+)**  
 If your app targets iOS 14+, and you want access to the IDFA, you must add a usage description in your Info.plist:
 ```xml
@@ -49,7 +49,6 @@ If your app targets iOS 14+, and you want access to the IDFA, you must add a usa
 ```
 
 ✅ ##5. Privacy Keys (Info.plist)
-⚠️ Optional, only if your app or the ad SDK uses location.
 Starting iOS 14+, Apple's privacy requirements mean you need to add usage descriptions:
 ```xml
 <key>NSLocationWhenInUseUsageDescription</key>
@@ -59,10 +58,12 @@ Starting iOS 14+, Apple's privacy requirements mean you need to add usage descri
 <key>NSUserTrackingUsageDescription</key>
 <string>This identifier will be used to deliver personalized ads to you.</string>
 ```
+⚠️ Optional, only if your app or the ad SDK uses location.
 
 
 ✅ **6. Minimum Deployment Target**  
 📱 As of recent versions, Mintegral SDK requires iOS 11.0+. Set this in your project’s deployment target.
+
 
 ✅ **7. Bitcode (Optional)**  
 🚫 Mintegral SDK does not support Bitcode. If you're running into issues during archive or validation, disable Bitcode:  
