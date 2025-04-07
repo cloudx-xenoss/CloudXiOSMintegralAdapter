@@ -23,7 +23,7 @@ Mintegral adapter for CloudX Core iOS SDK
 Add the following to your project’s Other Linker Flags in Build Settings:  
 `-ObjC`
 
-✅ ##2. Enable Objective-C Exceptions (Recommended)
+✅ **2. Enable Objective-C Exceptions (Recommended)
 - Some older versions of Mintegral SDKs expect Obj-C exceptions to be enabled.
 - Go to Build Settings
 - Set Enable Objective-C Exceptions (GCC_ENABLE_OBJC_EXCEPTIONS) to YES
@@ -48,7 +48,7 @@ If your app targets iOS 14+, and you want access to the IDFA, you must add a usa
 <string>This identifier will be used to deliver personalized ads to you.</string>
 ```
 
-✅ ##5. Privacy Keys (Info.plist)
+✅ **5. Privacy Keys (Info.plist)
 Starting iOS 14+, Apple's privacy requirements mean you need to add usage descriptions:
 ```xml
 <key>NSLocationWhenInUseUsageDescription</key>
