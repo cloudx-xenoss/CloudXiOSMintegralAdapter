@@ -12,7 +12,7 @@ Mintegral adapter for CloudX Core iOS SDK
 - NOTE: Follow the Project Configuration / Troubleshooting steps in the section below for additional setup setups
 
 ### 🛠️ Manual  
-1. Navigate to the releases and open the latest release (or whichever release you would like): [Releases](https://github.com/cloudx-xenoss/CloudXiOSAdManagerAdapter/releases)  
+1. Navigate to the releases and open the latest release (or whichever release you would like): [Releases](https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter/releases)  
 2. 📥 Download the `CloudXMintegralAdapter.xcframework.zip` file from the release  
 3. 🗂️ Unzip the download then drag and drop `CloudXMintegralAdapter.xcframework` into your XCode project
 4. Follow the Project Configuration / Troubleshooting steps in the section below for additional setup setups
