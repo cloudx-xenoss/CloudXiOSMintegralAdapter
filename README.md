@@ -23,7 +23,7 @@ Mintegral adapter for CloudX Core iOS SDK
 Add the following to your project’s Other Linker Flags in Build Settings:  
 `-ObjC`
 
-✅ **2. Enable Objective-C Exceptions (Recommended)
+✅ **2. Enable Objective-C Exceptions (Recommended)**
 - Some older versions of Mintegral SDKs expect Obj-C exceptions to be enabled.
 - Go to Build Settings
 - Set Enable Objective-C Exceptions (GCC_ENABLE_OBJC_EXCEPTIONS) to YES
