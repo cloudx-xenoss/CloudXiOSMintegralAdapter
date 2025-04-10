@@ -32,7 +32,7 @@ https://github.com/cloudx-xenoss/CloudXiOSMintegralAdapter
 3. 🗂️ Unzip the download then drag and drop `CloudXMintegralAdapter.xcframework` into your XCode project
 4. Follow the Project Configuration / Troubleshooting steps in the section below for additional setup setups
 
-## Update your Info.plist
+## 📄 Update your Info.plist
 
 ***The Mintegral SKAdNetowrk ID is required for Meta to make bids***
 ```xml
